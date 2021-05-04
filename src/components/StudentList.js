@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import SingleStudent from './SingleStudent';
 
 const StudentList = ({ studentArray, color = 'danger' }) => (
-  <ul>
+  <div className="card-container">
     {studentArray.map((student) => (
       <SingleStudent color={color} key={student.id} student={student} />
     ))}
-  </ul>
+  </div>
 );
 
 StudentList.propTypes = {
