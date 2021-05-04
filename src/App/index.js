@@ -7,6 +7,7 @@ import {
   getDeadStudents
 } from '../helpers/data/studentsData';
 import StudentList from '../components/StudentList';
+// import tombstone from '../images/tombstone.png';
 
 function App() {
   const [livingStudents, setLivingStudents] = useState([]);
@@ -17,7 +18,7 @@ function App() {
     setDeadStudents(getDeadStudents());
   }, []);
 
-  const killEmDead = () => {
+  const sharkAttack = () => {
     const [living, dead] = killStudent();
     setLivingStudents(living);
     setDeadStudents(dead);
@@ -26,12 +27,17 @@ function App() {
   return (
    <div className='App'>
     {livingStudents.length
-      ? <Button color='danger' onClick={killEmDead}>Kill Student</Button>
+      ? <Button color='danger' onClick={sharkAttack}>Shark Attack!</Button>
       : ''}
-    <h2>Living Students</h2>
+    <h2>Shark Tank</h2>
+    <div className="shark-tank">
     <StudentList color='info' studentArray={livingStudents} />
-    <h2>Dead Students</h2>
-    <StudentList color='secondary' studentArray={deadStudents}/>
+    </div>
+    <hr></hr>
+    <h2>Graveyard</h2>
+    <div className="graveyard">
+    <StudentList color='secondary' studentArray={deadStudents} />
+    </div>
     </div>
   );
 }
