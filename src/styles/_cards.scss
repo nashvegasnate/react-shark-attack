@@ -12,7 +12,9 @@
     flex: none;
     background-color: #A2ABAB;
     height: auto;
-    width: 250px;
+    width: 150px;
+    padding: 5px;
+    margin: 10px
   }
 }
 
@@ -31,4 +33,5 @@
   background-image: url(https://pngimage.net/wp-content/uploads/2018/06/graveyard-png.png);
   background-color: red;
   background-position: center;
+  background-size: cover
 }

@@ -7,7 +7,6 @@ import {
   getDeadStudents
 } from '../helpers/data/studentsData';
 import StudentList from '../components/StudentList';
-// import tombstone from '../images/tombstone.png';
 
 function App() {
   const [livingStudents, setLivingStudents] = useState([]);
