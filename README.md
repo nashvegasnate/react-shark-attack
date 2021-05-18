@@ -12,6 +12,9 @@ On app load, the user will see a tank full of his/her classmates just beneath a 
 ## Screenshots![Screen Shot 2021-05-18 at 10 30 33 AM](https://user-images.githubusercontent.com/76710923/118680355-44c27600-b7c4-11eb-9eb7-aa6dc0aae40c.png)
 ![Screen Shot 2021-05-18 at 10 31 12 AM](https://user-images.githubusercontent.com/76710923/118680364-47bd6680-b7c4-11eb-94a3-f3809fdbe70d.png)
 
+## Loom Video
+https://www.loom.com/share/1b9650961c8e42ee9be2aa1cadcb30d6
+
 ## Technologies used
 - ReactJS
 - SCSS
